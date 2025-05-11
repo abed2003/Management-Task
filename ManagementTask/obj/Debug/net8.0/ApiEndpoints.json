@@ -1,0 +1,176 @@
+[
+  {
+    "ContainingType": "ManagementTask.Controllers.TaskController",
+    "Method": "AddTask",
+    "RelativePath": "Task/AddTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AddTask",
+        "Type": "ManagementTask.DTO.TaskDTO.AddTaskDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagementTask.Controllers.TaskController",
+    "Method": "DeleteTaks",
+    "RelativePath": "Task/DeleteTaks/{TaskId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TaskId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagementTask.Controllers.TaskController",
+    "Method": "GetAllTasks",
+    "RelativePath": "Task/GetAllTasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagementTask.Controllers.TaskController",
+    "Method": "GetTaskById",
+    "RelativePath": "Task/GetTaskById/{TaskId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TaskId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagementTask.Controllers.TaskController",
+    "Method": "GetTaskByUserId",
+    "RelativePath": "Task/GetTaskByUserId/{UserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagementTask.Controllers.TaskController",
+    "Method": "UpdateTaks",
+    "RelativePath": "Task/UpdateTaks/{TaskId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewTaskData",
+        "Type": "ManagementTask.DTO.TaskDTO.UpdateTaskDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "TaskId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagementTask.Controllers.UserController",
+    "Method": "AddUsers",
+    "RelativePath": "Users/AddUsers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AddUser",
+        "Type": "ManagementTask.DTO.UsersDTO.AddUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagementTask.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "Users/DeleteUser/{UserId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagementTask.Controllers.UserController",
+    "Method": "GetAllUser",
+    "RelativePath": "Users/GetAllUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagementTask.Controllers.UserController",
+    "Method": "GetUserById",
+    "RelativePath": "Users/GetUserById/{UserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManagementTask.Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "Users/UpdateUser/{UserId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewUserData",
+        "Type": "ManagementTask.DTO.UsersDTO.UpdateUserDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
