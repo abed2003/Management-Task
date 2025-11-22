@@ -22,12 +22,22 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DBC>(Options => Options.UseSqlServer(builder.Configuration.GetConnectionString("task")));
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseCors(builder =>
+    builder.AllowAnyOrigin()
+         .AllowAnyMethod()
+         .AllowAnyHeader());
 }
+
+// Use the CORS policy
+//app.UseCors("AllowFrontend");
+app.UseCors();
+
+
+app.UseAuthentication();
 
 app.UseHttpsRedirection();
 

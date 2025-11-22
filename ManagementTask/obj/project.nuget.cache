@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KDLGxClGdvU=",
+  "dgSpecHash": "hpVT01jc+OU=",
   "success": true,
-  "projectFilePath": "D:\\ASP test\\ManagementTask\\ManagementTask\\ManagementTask.csproj",
+  "projectFilePath": "E:\\task for the front end\\js training\\test 6\\Management-Task\\ManagementTask\\ManagementTask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Abood\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Abood\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
